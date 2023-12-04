@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+    font-family: 'Nova Square', sans-serif;
+    background-color: rgba(0, 0, 139, 0.411);
+}
+/* topo */
+.secao-topo{ 
+    padding-bottom: 6px;
+}
+.topo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.topo label{
+    padding-right: 10px;
+}
+.pesquisa{
+    padding-left: 100px;
+}
+.topo a{
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 20px 0 20px 0;
+    padding: 7px;
+    background-color: white;
+    color: black;
+}
+.topo nav{
+    display: flex;
+    padding-left: 450px;
+    gap: 30px;
+}
+.topo a:hover{
+    background-color: black;
+    color: white;
+}
+/* banner */
+.secao-banner{
+    background-image: url(/img/fundo.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.banner{
+    background-color: rgba(0, 0, 0, 0.582);
+    font-style: oblique;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.secao-info{
+width: 100%;
+background-color: black;
+color: white;
+}
+.title{
+    width: 1024px;
+    text-align: center;
+    padding: 60px 0 0 200px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+    padding-left: 100px;
+}
+.info ul{
+    padding-left: 150px;
+}
+/* Divisao */
+.divisao{
+    padding:20px 0 0 15px ;
+    display: flex;
+    gap: 10px;
+}
+.divisao h2{
+    font-size: 20px;
+}
+/* Conteudo */
+.limitar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 30px;
+}
+.conteudo{
+    background-image: url(/img/eps/boku\ no\ hero.avif);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 6px 3px black;
+    border-radius: 5px;
+    height: 200px;
+    width: 250px;
+}
+.conteudo2{
+    background-image: url(/img/eps/fullmetal.avif);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 6px 3px black;
+    border-radius: 5px;
+    height: 200px;
+    width: 250px;
+}
+.conteudo3{
+    background-image: url(/img/eps/kagaya2.webp);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 6px 3px black;
+    border-radius: 5px;
+    height: 200px;
+    width: 250px;
+}
+.conteudo4{
+    background-image: url(/img/eps/magi.webp);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 6px 3px black;
+    border-radius: 5px;
+    height: 200px;
+    width: 250px;
+}
+.conteudo5{
+    background-image: url(/img/eps/one\ piece.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 6px 3px black;
+    border-radius: 5px;
+    height: 200px;
+    width: 250px;
+}
+.conteudo6{
+    background-image: url(/img/eps/The\ Promised\ Neverland.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 6px 3px black;
+    border-radius: 5px;
+    height: 200px;
+    width: 250px;
+}
+.conteudo7{
+    background-image: url(/img/eps/shild.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 6px 3px black;
+    border-radius: 5px;
+    height: 200px;
+    width: 250px;
+}
+.conteudo8{
+    background-image: url(/img/eps/Watashi\ ni\ Tenshi\ ga\ Maiorita!.webp);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 6px 3px black;
+    border-radius: 5px;
+    height: 200px;
+    width: 250px;
+}
+.limitar p{
+    color: white;
+    font-style: italic;
+    font-weight:bold ;
+    font-size: 15px;
+    padding-left: 5px;
+    background-color: rgba(0, 0, 0, 0.322);
+    position: relative;
+    top: 165px;
+}
+.limitar h2{
+    font-style: italic;
+    color: white;
+    font-weight: bolder;
+    font-size: 13px;
+    padding-left: 5px;
+    background-color: rgba(0, 0, 0, 0.322);
+    position: relative;
+    top: 165px;
+}
+/* formulario */
+.limitar-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info-formulario{
+    padding: 50px;
+}
+.info-formulario h2{
+    padding: 10px 0px 5px 0px;
+    font-weight: bold;
+    font-style: italic;
+}
+.info-formulario p{
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+legend{
+    font-weight: bold;
+    font-style: italic;
+}
+fieldset{
+    padding: 50px;
+    box-shadow: 3px 6px 3px black;
+    background-color: rgba(0, 0, 139, 0.11);
+}
+label{
+    font-weight: bold;
+    padding-right: 5px;
+}
+input{
+    width: 250px;
+}
+fieldset div{
+    padding: 20px 0px;
+}
+.button{
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+}
+.button-form{
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.836);
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+}
+/* rodape*/
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 20px 0 10px 0;
+    align-content: center;
+    gap: 100px;
+}
+footer a{
+    padding: 0 10px;
+}
+footer p{
+    color: white;
+}
+footer a:hover{
+    background-color: white;
+}
+
